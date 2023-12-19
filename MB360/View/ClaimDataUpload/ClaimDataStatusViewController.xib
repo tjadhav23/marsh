@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSans-Medium.ttf">
+            <string>NotoSans-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ClaimDataStatusViewController" customModule="MyBenefits360" customModuleProvider="target">
+            <connections>
+                <outlet property="btnClaims" destination="yaD-i1-zeF" id="lIU-6j-VmD"/>
+                <outlet property="lblDetails" destination="RgV-02-VB2" id="cvM-d0-6nG"/>
+                <outlet property="lblTitle" destination="RGU-1i-B2G" id="OFA-fU-QsH"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GzF-3M-L3f">
+                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                    <subviews>
+                        <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="claimUploaded" translatesAutoresizingMaskIntoConstraints="NO" id="QCw-jL-PeT">
+                            <rect key="frame" x="76.666666666666686" y="100" width="240" height="240"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="240" id="C8Y-ai-LIE"/>
+                                <constraint firstAttribute="width" constant="240" id="Y2q-9e-umC"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Claim Data Uploaded" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RGU-1i-B2G">
+                            <rect key="frame" x="75.333333333333329" y="453" width="242.66666666666669" height="33"/>
+                            <fontDescription key="fontDescription" name="NotoSans-Medium" family="Noto Sans" pointSize="24"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;Your claim data has been successfully uploaded.\n Your claim serial number is #12345&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RgV-02-VB2">
+                            <rect key="frame" x="20" y="496" width="353" height="41"/>
+                            <fontDescription key="fontDescription" name="NotoSans-Medium" family="Noto Sans" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yaD-i1-zeF">
+                            <rect key="frame" x="121.66666666666669" y="567" width="150" height="30"/>
+                            <color key="backgroundColor" red="0.0" green="0.61568627450980395" blue="0.8784313725490196" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="nxs-V4-feo"/>
+                                <constraint firstAttribute="width" constant="150" id="xsM-6x-dx0"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Go to All Claims">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="btnClaimsAct:" destination="-1" eventType="touchUpInside" id="P69-SC-aT6"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="QCw-jL-PeT" firstAttribute="top" secondItem="GzF-3M-L3f" secondAttribute="top" constant="100" id="2p0-18-MCv"/>
+                        <constraint firstItem="yaD-i1-zeF" firstAttribute="centerX" secondItem="GzF-3M-L3f" secondAttribute="centerX" id="4RR-9j-xV0"/>
+                        <constraint firstAttribute="trailing" secondItem="RgV-02-VB2" secondAttribute="trailing" constant="20" id="6Xi-5v-Khq"/>
+                        <constraint firstItem="QCw-jL-PeT" firstAttribute="centerX" secondItem="GzF-3M-L3f" secondAttribute="centerX" id="7HG-9I-GjS"/>
+                        <constraint firstItem="RGU-1i-B2G" firstAttribute="centerX" secondItem="GzF-3M-L3f" secondAttribute="centerX" id="88N-3L-LEI"/>
+                        <constraint firstItem="RgV-02-VB2" firstAttribute="top" secondItem="RGU-1i-B2G" secondAttribute="bottom" constant="10" id="LpW-Za-tHv"/>
+                        <constraint firstItem="yaD-i1-zeF" firstAttribute="top" secondItem="RgV-02-VB2" secondAttribute="bottom" constant="30" id="ebi-u7-wGB"/>
+                        <constraint firstItem="RgV-02-VB2" firstAttribute="leading" secondItem="GzF-3M-L3f" secondAttribute="leading" constant="20" id="gX2-y0-gpc"/>
+                        <constraint firstItem="RGU-1i-B2G" firstAttribute="top" secondItem="QCw-jL-PeT" secondAttribute="bottom" constant="50" id="o2u-5b-YYh"/>
+                        <constraint firstItem="RGU-1i-B2G" firstAttribute="centerY" secondItem="GzF-3M-L3f" secondAttribute="centerY" constant="90" id="oVj-IA-w1S"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="o2u-5b-YYh"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="GzF-3M-L3f" secondAttribute="trailing" id="4b5-98-KcD"/>
+                <constraint firstItem="GzF-3M-L3f" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="ZIs-oV-naD"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="GzF-3M-L3f" secondAttribute="bottom" id="u5E-kI-xZu"/>
+                <constraint firstItem="GzF-3M-L3f" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="yLG-qX-uvb"/>
+            </constraints>
+            <point key="canvasLocation" x="-16" y="-11"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="claimUploaded" width="240" height="241"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

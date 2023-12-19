@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22225" systemVersion="23A344" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ContactDetails" representedClassName="ContactDetails" syncable="YES" codeGenerationType="class">
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="contactType" optional="YES" attributeType="String"/>
+        <attribute name="dispAdd" optional="YES" attributeType="String"/>
+        <attribute name="dispEmail" optional="YES" attributeType="String"/>
+        <attribute name="dispFax" optional="YES" attributeType="String"/>
+        <attribute name="dispMob" optional="YES" attributeType="String"/>
+        <attribute name="emailID" optional="YES" attributeType="String"/>
+        <attribute name="escalation" optional="YES" attributeType="String"/>
+        <attribute name="faxNo" optional="YES" attributeType="String"/>
+        <attribute name="mobileNumber" optional="YES" attributeType="String"/>
+        <attribute name="person_Name" optional="YES" attributeType="String"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String"/>
+        <attribute name="productCode" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="CoveragePolicyData" representedClassName="CoveragePolicyData" syncable="YES" codeGenerationType="class">
+        <attribute name="broker_name" optional="YES" attributeType="String"/>
+        <attribute name="grpname" optional="YES" attributeType="String"/>
+        <attribute name="insur_co_name" optional="YES" attributeType="String"/>
+        <attribute name="policy_commencement_date" optional="YES" attributeType="String"/>
+        <attribute name="policy_no" optional="YES" attributeType="String"/>
+        <attribute name="policy_valid_upto" optional="YES" attributeType="String"/>
+        <attribute name="product_code" optional="YES" attributeType="String"/>
+        <attribute name="productCode" optional="YES" attributeType="String"/>
+        <attribute name="tpa_name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="CoveragesDetails" representedClassName="CoveragesDetails" syncable="YES" codeGenerationType="class">
+        <attribute name="age" optional="YES" attributeType="String"/>
+        <attribute name="base_sum_insured" optional="YES" attributeType="String"/>
+        <attribute name="dob" optional="YES" attributeType="String"/>
+        <attribute name="emp_id_no" optional="YES" attributeType="String"/>
+        <attribute name="gender" optional="YES" attributeType="String"/>
+        <attribute name="person_name" optional="YES" attributeType="String"/>
+        <attribute name="productCode" optional="YES" attributeType="String"/>
+        <attribute name="relation" optional="YES" attributeType="String"/>
+        <attribute name="sort_order" optional="YES" attributeType="String"/>
+        <attribute name="top_up_base_sum_insured" optional="YES" attributeType="String"/>
+        <attribute name="top_up_flag" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="DependantDetails" representedClassName="DependantDetails" syncable="YES" codeGenerationType="class">
+        <attribute name="age" optional="YES" attributeType="String"/>
+        <attribute name="dependantID" optional="YES" attributeType="String"/>
+        <attribute name="dependantRelation" optional="YES" attributeType="String"/>
+        <attribute name="dob" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="personSrNo" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="EMPLOYEE_INFORMATION" representedClassName="EMPLOYEE_INFORMATION" syncable="YES" codeGenerationType="class">
+        <attribute name="baseSumInsured" optional="YES" attributeType="String"/>
+        <attribute name="dateofDataInsert" optional="YES" attributeType="String"/>
+        <attribute name="department" optional="YES" attributeType="String"/>
+        <attribute name="designation" optional="YES" attributeType="String"/>
+        <attribute name="dtaeOfJoining" optional="YES" attributeType="String"/>
+        <attribute name="empIDNo" optional="YES" attributeType="String"/>
+        <attribute name="empSrNo" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="grade" optional="YES" attributeType="String"/>
+        <attribute name="groupChildSrNo" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="isActive" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="oe_group_base_Info_Sr_No" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="officialEmailID" optional="YES" attributeType="String"/>
+        <attribute name="productCode" optional="YES" attributeType="String"/>
+        <attribute name="topupoptedAmount" optional="YES" attributeType="String"/>
+        <attribute name="topupoptedflag" optional="YES" attributeType="String"/>
+        <attribute name="topupSIPremium" optional="YES" attributeType="String"/>
+        <attribute name="topupSrNo" optional="YES" attributeType="String"/>
+        <attribute name="topupSumInsured" optional="YES" attributeType="String"/>
+        <relationship name="empPersonRelation" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PERSON_INFORMATION"/>
+    </entity>
+    <entity name="EmployeeDetails" representedClassName="EmployeeDetails" syncable="YES" codeGenerationType="class">
+        <attribute name="brokerName" optional="YES" attributeType="String"/>
+        <attribute name="empID" optional="YES" attributeType="String"/>
+        <attribute name="empName" optional="YES" attributeType="String"/>
+        <attribute name="empSrNo" optional="YES" attributeType="String"/>
+        <attribute name="gender" optional="YES" attributeType="String"/>
+        <attribute name="groupChildSrNo" optional="YES" attributeType="String"/>
+        <attribute name="groupCode" optional="YES" attributeType="String"/>
+        <attribute name="groupName" optional="YES" attributeType="String"/>
+        <attribute name="insCode" optional="YES" attributeType="String"/>
+        <attribute name="insName" optional="YES" attributeType="String"/>
+        <attribute name="oeGroupBasSrNo" optional="YES" attributeType="String"/>
+        <attribute name="policyCommDate" optional="YES" attributeType="String"/>
+        <attribute name="policyNo" optional="YES" attributeType="String"/>
+        <attribute name="policySrNo" optional="YES" attributeType="String"/>
+        <attribute name="policyValidDate" optional="YES" attributeType="String"/>
+        <attribute name="productCode" optional="YES" attributeType="String"/>
+        <attribute name="tpaCode" optional="YES" attributeType="String"/>
+        <attribute name="tpaName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="EnrollmentDetails" representedClassName="EnrollmentDetails" syncable="YES" codeGenerationType="class">
+        <attribute name="acc_death_benefit_sum_insured" optional="YES" attributeType="String"/>
+        <attribute name="age" optional="YES" attributeType="String"/>
+        <attribute name="base_sum_insured" optional="YES" attributeType="String"/>
+        <attribute name="beneficiaryName" optional="YES" attributeType="String"/>
+        <attribute name="critical_illness_sum_insured" optional="YES" attributeType="String"/>
+        <attribute name="dob" optional="YES" attributeType="String"/>
+        <attribute name="employee_ID" optional="YES" attributeType="String"/>
+        <attribute name="groupName" optional="YES" attributeType="String"/>
+        <attribute name="other_sum_insured" optional="YES" attributeType="String"/>
+        <attribute name="permnt_tot_disab_sum_insured" optional="YES" attributeType="String"/>
+        <attribute name="permny_per_disab_sum_insured" optional="YES" attributeType="String"/>
+        <attribute name="productCode" optional="YES" attributeType="String"/>
+        <attribute name="relation" optional="YES" attributeType="String"/>
+        <attribute name="si_tableA" optional="YES" attributeType="String"/>
+        <attribute name="si_tableB" optional="YES" attributeType="String"/>
+        <attribute name="si_tableC" optional="YES" attributeType="String"/>
+        <attribute name="si_tableD" optional="YES" attributeType="String"/>
+        <attribute name="terminal_illness_sum_insured" optional="YES" attributeType="String"/>
+        <attribute name="topUp_sum_insured" optional="YES" attributeType="String"/>
+        <attribute name="total_SI" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="EnrollmentGroupRelations" representedClassName="EnrollmentGroupRelations" syncable="YES" codeGenerationType="class">
+        <attribute name="maxAge" optional="YES" attributeType="String"/>
+        <attribute name="minAge" optional="YES" attributeType="String"/>
+        <attribute name="relationID" optional="YES" attributeType="String"/>
+        <attribute name="relationName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="FaqDetails" representedClassName="FaqDetails" syncable="YES" codeGenerationType="class">
+        <attribute name="faq_Ans" optional="YES" attributeType="String"/>
+        <attribute name="faq_Order" optional="YES" attributeType="String"/>
+        <attribute name="faq_Question" optional="YES" attributeType="String"/>
+        <attribute name="faq_Sr_No" optional="YES" attributeType="String"/>
+        <attribute name="productCode" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Intimations" representedClassName="Intimations" syncable="YES" codeGenerationType="class">
+        <attribute name="claimAmount" optional="YES" attributeType="String"/>
+        <attribute name="claimant" optional="YES" attributeType="String"/>
+        <attribute name="claimDiagnosis" optional="YES" attributeType="String"/>
+        <attribute name="claimHospital" optional="YES" attributeType="String"/>
+        <attribute name="claimIntimationDate" optional="YES" attributeType="String"/>
+        <attribute name="claimIntimationNo" optional="YES" attributeType="String"/>
+        <attribute name="claimNumber" optional="YES" attributeType="String"/>
+        <attribute name="claimType" optional="YES" attributeType="String"/>
+        <attribute name="dateOfAdmission" optional="YES" attributeType="String"/>
+        <attribute name="employee_Name" optional="YES" attributeType="String"/>
+        <attribute name="employee_No" optional="YES" attributeType="String"/>
+        <attribute name="timeStamp" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="tpaIntimationNo" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="MyClaimsDetails" representedClassName="MyClaimsDetails" syncable="YES" codeGenerationType="class">
+        <attribute name="beneficiary" optional="YES" attributeType="String"/>
+        <attribute name="claimAmount" optional="YES" attributeType="String"/>
+        <attribute name="claimDate" optional="YES" attributeType="String"/>
+        <attribute name="claimNumber" optional="YES" attributeType="String"/>
+        <attribute name="claimSrNo" optional="YES" attributeType="String"/>
+        <attribute name="claimStatus" optional="YES" attributeType="String"/>
+        <attribute name="claimType" optional="YES" attributeType="String"/>
+        <attribute name="relation" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="NetworkHospitalsDetails" representedClassName="NetworkHospitalsDetails" syncable="YES" codeGenerationType="class">
+        <attribute name="hosp_address" optional="YES" attributeType="String"/>
+        <attribute name="hosp_level" optional="YES" attributeType="String"/>
+        <attribute name="hosp_name" optional="YES" attributeType="String"/>
+        <attribute name="hosp_phone_no" optional="YES" attributeType="String"/>
+        <attribute name="lat" optional="YES" attributeType="String"/>
+        <attribute name="long" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="OE_GROUP_BASIC_INFORMATION" representedClassName="OE_GROUP_BASIC_INFORMATION" syncable="YES" codeGenerationType="class">
+        <attribute name="brokerName" optional="YES" attributeType="String"/>
+        <attribute name="createdOn" optional="YES" attributeType="String"/>
+        <attribute name="groupchildSrNo" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="ins_Code" optional="YES" attributeType="String"/>
+        <attribute name="ins_Name" optional="YES" attributeType="String"/>
+        <attribute name="isActive" optional="YES" attributeType="String"/>
+        <attribute name="isValid" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="lastUpdatedBy" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="lastUpdatedOn" optional="YES" attributeType="String"/>
+        <attribute name="oE_GRP_BAS_INF_SR_NO" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="policyComencmentDate" optional="YES" attributeType="String"/>
+        <attribute name="policyNumber" optional="YES" attributeType="String"/>
+        <attribute name="policyType" optional="YES" attributeType="String"/>
+        <attribute name="policyValidUpto" optional="YES" attributeType="String"/>
+        <attribute name="productCode" optional="YES" attributeType="String"/>
+        <attribute name="tpa_Code" optional="YES" attributeType="String"/>
+        <attribute name="tpa_Name" optional="YES" attributeType="String"/>
+        <attribute name="typeOfPolSrNo" optional="YES" attributeType="String"/>
+        <relationship name="newRelationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="OE_GROUP_CHILD_MASTER" inverseName="newRelationship" inverseEntity="OE_GROUP_CHILD_MASTER"/>
+    </entity>
+    <entity name="OE_GROUP_CHILD_MASTER" representedClassName="OE_GROUP_CHILD_MASTER" syncable="YES" codeGenerationType="class">
+        <attribute name="createdOn" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="groupChildSrNo" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="groupCode" optional="YES" attributeType="String"/>
+        <attribute name="groupName" optional="YES" attributeType="String"/>
+        <attribute name="isValid" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="lastUpdatedBy" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="lastUpdatedOn" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="empRelationship" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="EMPLOYEE_INFORMATION"/>
+        <relationship name="newRelationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="OE_GROUP_BASIC_INFORMATION" inverseName="newRelationship" inverseEntity="OE_GROUP_BASIC_INFORMATION"/>
+    </entity>
+    <entity name="ParentsPremiumDetails" representedClassName="ParentsPremiumDetails" syncable="YES" codeGenerationType="class">
+        <attribute name="isParentsCovered" optional="YES" attributeType="String"/>
+        <attribute name="premium" optional="YES" attributeType="String"/>
+        <attribute name="relation" optional="YES" attributeType="String"/>
+        <attribute name="sumInsured" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PERSON_INFORMATION" representedClassName="PERSON_INFORMATION" syncable="YES" codeGenerationType="class">
+        <attribute name="age" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="cellPhoneNUmber" optional="YES" attributeType="String"/>
+        <attribute name="dateofBirth" optional="YES" attributeType="String"/>
+        <attribute name="emailID" optional="YES" attributeType="String"/>
+        <attribute name="empSrNo" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="emrgContactNumber" optional="YES" attributeType="String"/>
+        <attribute name="gender" optional="YES" attributeType="String"/>
+        <attribute name="isValid" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="personName" optional="YES" attributeType="String"/>
+        <attribute name="personSrNo" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="productCode" optional="YES" attributeType="String"/>
+        <attribute name="relationID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="relationname" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PolicyAnnexure" representedClassName="PolicyAnnexure" syncable="YES" codeGenerationType="class">
+        <attribute name="annexureDesc" optional="YES" attributeType="String"/>
+        <attribute name="annexureName" optional="YES" attributeType="String"/>
+        <attribute name="annexurePath" optional="YES" attributeType="String"/>
+        <attribute name="productCode" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PolicyFeature" representedClassName="PolicyFeature" syncable="YES" codeGenerationType="class">
+        <attribute name="annexure_desc" optional="YES" attributeType="String"/>
+        <attribute name="annexure_name" optional="YES" attributeType="String"/>
+        <attribute name="fileName" optional="YES" attributeType="String"/>
+        <attribute name="productCode" optional="YES" attributeType="String"/>
+        <attribute name="systemGeneratedName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PolicyFeaturesDetails" representedClassName="PolicyFeaturesDetails" syncable="YES" codeGenerationType="class">
+        <attribute name="policyFeatureDisplayType" optional="YES" attributeType="String"/>
+        <attribute name="policyFeatureType" optional="YES" attributeType="String"/>
+        <attribute name="policyID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="policyInfo" optional="YES" attributeType="String"/>
+        <attribute name="policyInfoDisplayTo" optional="YES" attributeType="String"/>
+        <attribute name="policyTermsCondition" optional="YES" attributeType="String"/>
+        <attribute name="productCode" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ProfileDetails" representedClassName="ProfileDetails" syncable="YES" codeGenerationType="class">
+        <attribute name="address1" optional="YES" attributeType="String"/>
+        <attribute name="address2" optional="YES" attributeType="String"/>
+        <attribute name="city" optional="YES" attributeType="String"/>
+        <attribute name="dateofBirth" optional="YES" attributeType="String"/>
+        <attribute name="department" optional="YES" attributeType="String"/>
+        <attribute name="emergencyContactNo" optional="YES" attributeType="String"/>
+        <attribute name="emergencyContactRelation" optional="YES" attributeType="String"/>
+        <attribute name="empDesignation" optional="YES" attributeType="String"/>
+        <attribute name="empName" optional="YES" attributeType="String"/>
+        <attribute name="gender" optional="YES" attributeType="String"/>
+        <attribute name="landmark" optional="YES" attributeType="String"/>
+        <attribute name="mailIDOfficial" optional="YES" attributeType="String"/>
+        <attribute name="mobileNo" optional="YES" attributeType="String"/>
+        <attribute name="personalEmailID" optional="YES" attributeType="String"/>
+        <attribute name="pincode" optional="YES" attributeType="String"/>
+        <attribute name="state" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Queries" representedClassName="Queries" syncable="YES" codeGenerationType="class">
+        <attribute name="completeQueryText" optional="YES" attributeType="String"/>
+        <attribute name="empSrNo" optional="YES" attributeType="String"/>
+        <attribute name="lastReply" optional="YES" attributeType="String"/>
+        <attribute name="noofReplies" optional="YES" attributeType="String"/>
+        <attribute name="personName" optional="YES" attributeType="String"/>
+        <attribute name="postedDate" optional="YES" attributeType="String"/>
+        <attribute name="queryEndedStatus" optional="YES" attributeType="String"/>
+        <attribute name="queryNo" optional="YES" attributeType="String"/>
+        <attribute name="querySolvedStatus" optional="YES" attributeType="String"/>
+        <attribute name="ticketNumber" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="TopupDetails" representedClassName="TopupDetails" syncable="YES" codeGenerationType="class">
+        <attribute name="baseSumInsured" optional="YES" attributeType="String"/>
+        <attribute name="premium" optional="YES" attributeType="String"/>
+        <attribute name="productCode" optional="YES" attributeType="String"/>
+        <attribute name="topupInsured" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UtilitiesDetails" representedClassName="UtilitiesDetails" syncable="YES" codeGenerationType="class">
+        <attribute name="download_display_name" optional="YES" attributeType="String"/>
+        <attribute name="download_name" optional="YES" attributeType="String"/>
+        <attribute name="download_sr_no" optional="YES" attributeType="String"/>
+        <attribute name="download_visibility" optional="YES" attributeType="String"/>
+        <attribute name="file_path" optional="YES" attributeType="String"/>
+        <attribute name="file_type" optional="YES" attributeType="String"/>
+        <attribute name="grp_child_sr_no" optional="YES" attributeType="String"/>
+        <attribute name="oe_grp_base_no" optional="YES" attributeType="String"/>
+        <attribute name="product_code" optional="YES" attributeType="String"/>
+        <attribute name="product_name" optional="YES" attributeType="String"/>
+        <attribute name="sys_gen_file_name" optional="YES" attributeType="String"/>
+    </entity>
+</model>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSans-Medium.ttf">
+            <string>NotoSans-Medium</string>
+        </array>
+        <array key="NotoSans-Regular.ttf">
+            <string>NotoSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EnrollViewController" customModule="MyBenefits360" customModuleProvider="target">
+            <connections>
+                <outlet property="enrollContentLbl" destination="Adh-TD-JYl" id="E9g-91-Pe2"/>
+                <outlet property="enrollHeaderLbl" destination="fYY-sR-vRz" id="VrQ-Tj-BzG"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Enroll" translatesAutoresizingMaskIntoConstraints="NO" id="mNc-ZB-wB4">
+                    <rect key="frame" x="139" y="252.66666666666663" width="150" height="150"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="4W9-TC-gjB"/>
+                        <constraint firstAttribute="width" constant="150" id="ln6-FS-RZs"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ENROLL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fYY-sR-vRz">
+                    <rect key="frame" x="156.66666666666666" y="472.66666666666669" width="114.99999999999997" height="41.000000000000057"/>
+                    <fontDescription key="fontDescription" name="NotoSans-Medium" family="Noto Sans" pointSize="30"/>
+                    <color key="textColor" red="0.047058824450000002" green="0.14901961389999999" blue="0.38823530080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YPV-VN-W3L">
+                    <rect key="frame" x="365" y="849.66666666666663" width="55" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="55" id="p4r-wQ-ube"/>
+                        <constraint firstAttribute="height" constant="50" id="p7W-7O-Uax"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="next">
+                        <color key="titleColor" red="0.1176470588" green="0.53725490200000003" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="nextPageButtonClicked:" destination="-1" eventType="touchUpInside" id="NJU-Op-lg1"/>
+                    </connections>
+                </button>
+                <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="cm8-8A-XDL">
+                    <rect key="frame" x="133.66666666666669" y="873" width="160.66666666666669" height="3"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lk5-wX-vid">
+                            <rect key="frame" x="0.0" y="0.0" width="41.333333333333336" height="3"/>
+                            <color key="backgroundColor" red="0.12549019607843137" green="0.20000000000000001" blue="0.40784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.12549019607843137" green="0.20000000000000001" blue="0.40784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="La" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ja7-XH-4Bu">
+                            <rect key="frame" x="41.333333333333343" y="0.0" width="18.333333333333329" height="3"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bA1-mS-Yrf">
+                            <rect key="frame" x="59.666666666666686" y="0.0" width="41.333333333333343" height="3"/>
+                            <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="La" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aja-QM-jBF">
+                            <rect key="frame" x="101" y="0.0" width="18.333333333333329" height="3"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="47b-0R-2gn">
+                            <rect key="frame" x="119.33333333333333" y="0.0" width="41.333333333333329" height="3"/>
+                            <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="3" id="2aA-K7-Eza"/>
+                    </constraints>
+                </stackView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Understand which Insurance and Wellness options to select for your life stage and lifestyle" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Adh-TD-JYl">
+                    <rect key="frame" x="30" y="523.66666666666663" width="368" height="82"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="300" id="5VO-i6-2rf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="NotoSans-Regular" family="Noto Sans" pointSize="20"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="5VO-i6-2rf"/>
+                        </mask>
+                    </variation>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="cm8-8A-XDL" secondAttribute="bottom" constant="50" id="5j6-gx-1II"/>
+                <constraint firstItem="fYY-sR-vRz" firstAttribute="centerX" secondItem="mNc-ZB-wB4" secondAttribute="centerX" id="5wR-fa-zOG"/>
+                <constraint firstItem="Adh-TD-JYl" firstAttribute="top" secondItem="fYY-sR-vRz" secondAttribute="bottom" constant="10" id="6mB-bv-Xm8"/>
+                <constraint firstItem="fYY-sR-vRz" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="30" id="6t3-cs-NsD"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Adh-TD-JYl" secondAttribute="trailing" constant="30" id="74y-X4-bUz"/>
+                <constraint firstItem="Adh-TD-JYl" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="As2-p5-O0k"/>
+                <constraint firstItem="YPV-VN-W3L" firstAttribute="centerY" secondItem="cm8-8A-XDL" secondAttribute="centerY" id="Cld-od-dVq"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="YPV-VN-W3L" secondAttribute="trailing" constant="8" id="Qp0-ek-txc"/>
+                <constraint firstItem="mNc-ZB-wB4" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" priority="100" constant="80" id="UcM-OB-hQM"/>
+                <constraint firstItem="Adh-TD-JYl" firstAttribute="centerX" secondItem="fYY-sR-vRz" secondAttribute="centerX" id="XSy-52-p3I"/>
+                <constraint firstItem="Adh-TD-JYl" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="aqG-fX-3cG"/>
+                <constraint firstItem="fYY-sR-vRz" firstAttribute="top" secondItem="mNc-ZB-wB4" secondAttribute="bottom" constant="70" id="bzE-1w-o98"/>
+                <constraint firstItem="cm8-8A-XDL" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="tXT-Ys-Efs"/>
+            </constraints>
+            <point key="canvasLocation" x="131" y="128"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Enroll" width="258" height="258"/>
+        <image name="next" width="100" height="100"/>
+    </resources>
+</document>

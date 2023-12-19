@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>169694279494-ani40u7tqh8p7vu7t2bhscqudhotgqlj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.169694279494-ani40u7tqh8p7vu7t2bhscqudhotgqlj</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>169694279494-9jv527lc77lb1ti2reij1iedm0atibee.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBos0ZEA5afzn-XQvjppo3r3-ViYhag_hs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>169694279494</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.marsh.benefitsyouindia</string>
+	<key>PROJECT_ID</key>
+	<string>marsh-india-benefits-you</string>
+	<key>STORAGE_BUCKET</key>
+	<string>marsh-india-benefits-you.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:169694279494:ios:44eedbc6c44137c0aad747</string>
+</dict>
+</plist>

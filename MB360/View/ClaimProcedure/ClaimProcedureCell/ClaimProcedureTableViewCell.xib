@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="2298" id="KGk-i7-Jjw" customClass="ClaimProcedureTableViewCell" customModule="MyBenefits" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="353" height="2298"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="353" height="2297.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ubq-6d-Zle">
+                        <rect key="frame" x="15" y="-10" width="323" height="2292.5"/>
+                        <subviews>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O8L-qY-WFB">
+                                <rect key="frame" x="0.0" y="25" width="323" height="2267.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7rJ-Kv-r60">
+                                        <rect key="frame" x="10" y="1800.5" width="30" height="30"/>
+                                        <color key="backgroundColor" red="0.0" green="0.43921568630000002" blue="0.83529411760000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="5WT-Pp-Hlc"/>
+                                            <constraint firstAttribute="width" constant="30" id="dmT-nN-saQ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fhp-hS-yhM">
+                                        <rect key="frame" x="24" y="1830.5" width="2" height="155.5"/>
+                                        <color key="backgroundColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="2" id="C0N-Xj-5YG"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7D9-E7-Gwd">
+                                        <rect key="frame" x="50" y="1861" width="268" height="115"/>
+                                        <string key="text">Avail treatment from the Hospital and get discharged. Before discharge, ensure that you pay for any non-medical expenses and sign relevant documents if any.</string>
+                                        <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="14"/>
+                                        <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Avail tratment and get discharged" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BqJ-tu-KRn">
+                                        <rect key="frame" x="50" y="1798.5" width="268" height="52.5"/>
+                                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="16"/>
+                                        <color key="textColor" red="0.0" green="0.43921568630000002" blue="0.83529411760000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hospital will send final bill to TPA for processing and payment." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M5t-jV-M3U">
+                                        <rect key="frame" x="50" y="2048.5" width="268" height="46"/>
+                                        <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="14"/>
+                                        <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dxF-wW-1iy">
+                                        <rect key="frame" x="24" y="2018" width="2" height="86.5"/>
+                                        <color key="backgroundColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" priority="100" constant="86" id="4um-YB-Fcd"/>
+                                            <constraint firstAttribute="width" constant="2" id="bA7-md-nFv"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P2e-WQ-HXb">
+                                        <rect key="frame" x="10" y="1988" width="30" height="30"/>
+                                        <color key="backgroundColor" red="0.0" green="0.43921568630000002" blue="0.83529411760000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="6LI-gq-E6V"/>
+                                            <constraint firstAttribute="width" constant="30" id="ol0-aK-V1L"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Hospital sends bill directly to TPA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLs-PH-fI1">
+                                        <rect key="frame" x="50" y="1986" width="268" height="52.5"/>
+                                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="16"/>
+                                        <color key="textColor" red="0.0" green="0.43921568630000002" blue="0.83529411760000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TPA processes the claims and makes payment to the hospital as per claims admissibility." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nt7-UN-qrH">
+                                        <rect key="frame" x="50" y="2188.5" width="268" height="69"/>
+                                        <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="14"/>
+                                        <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QqY-5E-JwV">
+                                        <rect key="frame" x="10" y="2104.5" width="30" height="30"/>
+                                        <color key="backgroundColor" red="0.0" green="0.43921568630000002" blue="0.83529411760000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="DxU-nR-7yQ"/>
+                                            <constraint firstAttribute="width" constant="30" id="MdZ-F2-rvc"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="TPA processes claims and pays the hospital" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2cf-1X-yn2">
+                                        <rect key="frame" x="50" y="2104.5" width="268" height="74"/>
+                                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="16"/>
+                                        <color key="textColor" red="0.0" green="0.43921568630000002" blue="0.83529411760000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bPh-Am-JWo">
+                                        <rect key="frame" x="10" y="0.0" width="30" height="30"/>
+                                        <color key="backgroundColor" red="0.0" green="0.4392156862745098" blue="0.83529411764705885" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="LGe-Fc-kVu"/>
+                                            <constraint firstAttribute="width" constant="30" id="zbj-vP-H2S"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get admitted to Network Hospital" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mws-9H-MhY">
+                                        <rect key="frame" x="50" y="-2" width="268" height="52.5"/>
+                                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="16"/>
+                                        <color key="textColor" red="0.0" green="0.43921568630000002" blue="0.83529411760000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X2H-1I-fSm">
+                                        <rect key="frame" x="50" y="60.5" width="268" height="230"/>
+                                        <string key="text">Walk into Network Hospital of your choice and produce your Health ID card and Photo ID card at the TPA helpdesk or reception. List of Network Hospitals is available on MyBenefitsApp and check whether hospital is in Network of the TPA. Also carry any previous consultation notes or investigation reports if available.</string>
+                                        <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="14"/>
+                                        <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d4q-h2-LkM">
+                                        <rect key="frame" x="24" y="30" width="2" height="270.5"/>
+                                        <color key="backgroundColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="2" id="dVh-Pv-Ctc"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PFe-6w-ztY">
+                                        <rect key="frame" x="50" y="361" width="268" height="184"/>
+                                        <string key="text">Hospital will send Cashless hospitalisation request to your TPA within 24 hours from date of admission. Hospital may ask for certain deposit amount at the time of admission which will be refunded back on approval of payment from the TPA.</string>
+                                        <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="14"/>
+                                        <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PRb-tS-KQc">
+                                        <rect key="frame" x="24" y="330.5" width="2" height="224.5"/>
+                                        <color key="backgroundColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="2" id="InS-aS-bEA"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OCQ-Qn-GO9">
+                                        <rect key="frame" x="10" y="300.5" width="30" height="30"/>
+                                        <color key="backgroundColor" red="0.0" green="0.43921568630000002" blue="0.83529411760000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="JPQ-h8-maq"/>
+                                            <constraint firstAttribute="width" constant="30" id="vfq-6x-9VM"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hospital sends cashless request to TPA" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="25F-0S-pet">
+                                        <rect key="frame" x="50" y="298.5" width="268" height="52.5"/>
+                                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="16"/>
+                                        <color key="textColor" red="0.0" green="0.43921568630000002" blue="0.83529411760000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PO4-Dr-hVr">
+                                        <rect key="frame" x="50" y="644" width="268" height="115"/>
+                                        <string key="text">TPA reverts within 3 hours of receipt of cashless request. In case of any issues, your customer service representative will assist you for any queries or documentation.</string>
+                                        <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="14"/>
+                                        <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XAE-Sa-Srw">
+                                        <rect key="frame" x="24" y="587" width="2" height="1072"/>
+                                        <color key="backgroundColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="2" id="m50-iL-3ZB"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zz7-oe-O7L">
+                                        <rect key="frame" x="10" y="557" width="30" height="30"/>
+                                        <color key="backgroundColor" red="0.0" green="0.43921568630000002" blue="0.83529411760000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="dkR-fn-S06"/>
+                                            <constraint firstAttribute="width" constant="30" id="pVk-XC-5jH"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coordinate with customer service team incase of any queries" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="op8-dy-vMb">
+                                        <rect key="frame" x="50" y="555" width="268" height="79"/>
+                                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="16"/>
+                                        <color key="textColor" red="0.0" green="0.43921568630000002" blue="0.83529411760000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TPA will authorise Cashless Amount as per your Policy Definition and send it to the hospital." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j2Y-hR-0z6">
+                                        <rect key="frame" x="50" y="1719.5" width="268" height="69"/>
+                                        <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="14"/>
+                                        <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hhb-V2-n4N">
+                                        <rect key="frame" x="24" y="1689" width="2" height="109.5"/>
+                                        <color key="backgroundColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="2" id="csQ-cD-PMJ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zrP-LX-CFN">
+                                        <rect key="frame" x="10" y="1659" width="30" height="30"/>
+                                        <color key="backgroundColor" red="0.0" green="0.43921568630000002" blue="0.83529411760000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="J8n-YK-wtf"/>
+                                            <constraint firstAttribute="width" constant="30" id="cWD-e0-Oi8"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get admitted to Network Hospital" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UEH-6Q-iVY">
+                                        <rect key="frame" x="50" y="1657" width="268" height="52.5"/>
+                                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="16"/>
+                                        <color key="textColor" red="0.0" green="0.43921568630000002" blue="0.83529411760000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oq3-cV-g0t">
+                                        <rect key="frame" x="25" y="2134.5" width="0.0" height="123"/>
+                                        <color key="backgroundColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="okT-Bg-58N">
+                                        <rect key="frame" x="0.0" y="2267.5" width="323" height="0.0"/>
+                                        <color key="backgroundColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" id="StN-dD-hdB"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <webView contentMode="scaleAspectFit" paginationMode="topToBottom" translatesAutoresizingMaskIntoConstraints="NO" id="ZQC-5d-XcP">
+                                        <rect key="frame" x="26" y="759" width="292" height="900"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="900" id="bxg-Vp-Q80"/>
+                                        </constraints>
+                                    </webView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="PRb-tS-KQc" firstAttribute="bottom" secondItem="PFe-6w-ztY" secondAttribute="bottom" constant="10" id="0Qe-Za-YVb"/>
+                                    <constraint firstItem="okT-Bg-58N" firstAttribute="leading" secondItem="O8L-qY-WFB" secondAttribute="leading" id="1GX-7C-YbU"/>
+                                    <constraint firstItem="dxF-wW-1iy" firstAttribute="top" secondItem="P2e-WQ-HXb" secondAttribute="bottom" id="1na-iw-Ntx"/>
+                                    <constraint firstAttribute="bottom" secondItem="Nt7-UN-qrH" secondAttribute="bottom" constant="10" id="2Ev-iB-2In"/>
+                                    <constraint firstItem="BqJ-tu-KRn" firstAttribute="trailing" secondItem="j2Y-hR-0z6" secondAttribute="trailing" id="4bF-ug-oa1"/>
+                                    <constraint firstItem="zrP-LX-CFN" firstAttribute="top" secondItem="XAE-Sa-Srw" secondAttribute="bottom" id="58f-TC-zad"/>
+                                    <constraint firstItem="j2Y-hR-0z6" firstAttribute="top" secondItem="UEH-6Q-iVY" secondAttribute="bottom" constant="10" id="5nh-TL-cR3"/>
+                                    <constraint firstItem="dxF-wW-1iy" firstAttribute="bottom" secondItem="M5t-jV-M3U" secondAttribute="bottom" constant="10" id="6eP-ok-dRF"/>
+                                    <constraint firstItem="Oq3-cV-g0t" firstAttribute="top" secondItem="QqY-5E-JwV" secondAttribute="bottom" id="72b-BX-Hjr"/>
+                                    <constraint firstItem="Nt7-UN-qrH" firstAttribute="trailing" secondItem="2cf-1X-yn2" secondAttribute="trailing" id="86s-uQ-eox"/>
+                                    <constraint firstItem="zrP-LX-CFN" firstAttribute="top" secondItem="ZQC-5d-XcP" secondAttribute="bottom" id="8Dz-3y-t8o"/>
+                                    <constraint firstAttribute="trailing" secondItem="j2Y-hR-0z6" secondAttribute="trailing" constant="5" id="A0m-g8-ku4"/>
+                                    <constraint firstItem="7rJ-Kv-r60" firstAttribute="leading" secondItem="zrP-LX-CFN" secondAttribute="leading" id="AdO-bM-BSz"/>
+                                    <constraint firstItem="Fhp-hS-yhM" firstAttribute="centerX" secondItem="7rJ-Kv-r60" secondAttribute="centerX" id="BdK-MK-eDq"/>
+                                    <constraint firstItem="j2Y-hR-0z6" firstAttribute="leading" secondItem="UEH-6Q-iVY" secondAttribute="leading" id="FCI-XC-Ns2"/>
+                                    <constraint firstItem="OCQ-Qn-GO9" firstAttribute="leading" secondItem="bPh-Am-JWo" secondAttribute="leading" id="Fje-pe-7By"/>
+                                    <constraint firstItem="bPh-Am-JWo" firstAttribute="leading" secondItem="O8L-qY-WFB" secondAttribute="leading" constant="10" id="GJp-cc-GH3"/>
+                                    <constraint firstAttribute="height" priority="100" constant="2479.5" id="Gxf-xO-8E1"/>
+                                    <constraint firstItem="M5t-jV-M3U" firstAttribute="top" secondItem="fLs-PH-fI1" secondAttribute="bottom" constant="10" id="Hl1-le-ZgT"/>
+                                    <constraint firstItem="Mws-9H-MhY" firstAttribute="top" secondItem="bPh-Am-JWo" secondAttribute="top" constant="-2" id="IM8-KI-Ksn"/>
+                                    <constraint firstItem="Mws-9H-MhY" firstAttribute="leading" secondItem="bPh-Am-JWo" secondAttribute="trailing" constant="10" id="LGl-uf-1WS"/>
+                                    <constraint firstItem="hhb-V2-n4N" firstAttribute="bottom" secondItem="j2Y-hR-0z6" secondAttribute="bottom" constant="10" id="M7j-t2-h6b"/>
+                                    <constraint firstItem="Fhp-hS-yhM" firstAttribute="top" secondItem="7rJ-Kv-r60" secondAttribute="bottom" id="McL-A4-sAy"/>
+                                    <constraint firstItem="BqJ-tu-KRn" firstAttribute="top" secondItem="7rJ-Kv-r60" secondAttribute="top" constant="-2" id="Myk-9n-jV3"/>
+                                    <constraint firstItem="X2H-1I-fSm" firstAttribute="leading" secondItem="Mws-9H-MhY" secondAttribute="leading" id="NdC-dG-PDd"/>
+                                    <constraint firstItem="2cf-1X-yn2" firstAttribute="leading" secondItem="M5t-jV-M3U" secondAttribute="leading" id="O7X-rM-bg9"/>
+                                    <constraint firstItem="PFe-6w-ztY" firstAttribute="top" secondItem="25F-0S-pet" secondAttribute="bottom" constant="10" id="OCe-Cq-iC8"/>
+                                    <constraint firstItem="op8-dy-vMb" firstAttribute="trailing" secondItem="25F-0S-pet" secondAttribute="trailing" id="OEo-OT-3vp"/>
+                                    <constraint firstItem="2cf-1X-yn2" firstAttribute="top" secondItem="M5t-jV-M3U" secondAttribute="bottom" constant="10" id="PcL-xc-xvL"/>
+                                    <constraint firstItem="UEH-6Q-iVY" firstAttribute="leading" secondItem="zrP-LX-CFN" secondAttribute="trailing" constant="10" id="Q8c-P0-Mfk"/>
+                                    <constraint firstItem="2cf-1X-yn2" firstAttribute="trailing" secondItem="M5t-jV-M3U" secondAttribute="trailing" id="T96-0R-bDS"/>
+                                    <constraint firstItem="M5t-jV-M3U" firstAttribute="leading" secondItem="fLs-PH-fI1" secondAttribute="leading" id="Tcm-0z-2wE"/>
+                                    <constraint firstItem="Oq3-cV-g0t" firstAttribute="bottom" secondItem="Nt7-UN-qrH" secondAttribute="bottom" id="Tcz-Bh-TPP"/>
+                                    <constraint firstItem="PO4-Dr-hVr" firstAttribute="trailing" secondItem="op8-dy-vMb" secondAttribute="trailing" id="ThB-nH-hQM"/>
+                                    <constraint firstItem="fLs-PH-fI1" firstAttribute="top" secondItem="7D9-E7-Gwd" secondAttribute="bottom" constant="10" id="TuP-5F-Jmx"/>
+                                    <constraint firstAttribute="trailing" secondItem="Mws-9H-MhY" secondAttribute="trailing" constant="5" id="UKj-BS-XEW"/>
+                                    <constraint firstItem="OCQ-Qn-GO9" firstAttribute="top" secondItem="d4q-h2-LkM" secondAttribute="bottom" id="UhG-j6-uyV"/>
+                                    <constraint firstItem="X2H-1I-fSm" firstAttribute="top" secondItem="Mws-9H-MhY" secondAttribute="bottom" constant="10" id="VMS-4H-bUh"/>
+                                    <constraint firstItem="Fhp-hS-yhM" firstAttribute="bottom" secondItem="7D9-E7-Gwd" secondAttribute="bottom" constant="10" id="W6f-YX-gUN"/>
+                                    <constraint firstItem="bPh-Am-JWo" firstAttribute="top" secondItem="O8L-qY-WFB" secondAttribute="top" id="Wsh-mH-gPI"/>
+                                    <constraint firstItem="7D9-E7-Gwd" firstAttribute="trailing" secondItem="BqJ-tu-KRn" secondAttribute="trailing" id="XYI-ey-Qbl"/>
+                                    <constraint firstItem="d4q-h2-LkM" firstAttribute="bottom" secondItem="X2H-1I-fSm" secondAttribute="bottom" constant="10" id="XZn-Ht-XBG"/>
+                                    <constraint firstItem="op8-dy-vMb" firstAttribute="top" secondItem="PFe-6w-ztY" secondAttribute="bottom" constant="10" id="YFU-oL-xok"/>
+                                    <constraint firstItem="hhb-V2-n4N" firstAttribute="centerX" secondItem="zrP-LX-CFN" secondAttribute="centerX" id="Yv8-NC-gid"/>
+                                    <constraint firstItem="QqY-5E-JwV" firstAttribute="top" secondItem="dxF-wW-1iy" secondAttribute="bottom" id="Z6W-6P-vfe"/>
+                                    <constraint firstItem="PO4-Dr-hVr" firstAttribute="leading" secondItem="op8-dy-vMb" secondAttribute="leading" id="ZLD-Ca-02S"/>
+                                    <constraint firstItem="okT-Bg-58N" firstAttribute="top" secondItem="Nt7-UN-qrH" secondAttribute="bottom" constant="10" id="ZgK-xG-9G1"/>
+                                    <constraint firstItem="fLs-PH-fI1" firstAttribute="leading" secondItem="7D9-E7-Gwd" secondAttribute="leading" id="boK-0L-DcD"/>
+                                    <constraint firstItem="PRb-tS-KQc" firstAttribute="centerX" secondItem="OCQ-Qn-GO9" secondAttribute="centerX" id="d5l-jK-VWJ"/>
+                                    <constraint firstItem="UEH-6Q-iVY" firstAttribute="top" secondItem="zrP-LX-CFN" secondAttribute="top" constant="-2" id="e1g-rm-2qZ"/>
+                                    <constraint firstItem="zrP-LX-CFN" firstAttribute="leading" secondItem="zz7-oe-O7L" secondAttribute="leading" id="eEA-hd-xEn"/>
+                                    <constraint firstItem="P2e-WQ-HXb" firstAttribute="leading" secondItem="7rJ-Kv-r60" secondAttribute="leading" id="fYR-A3-boX"/>
+                                    <constraint firstItem="UEH-6Q-iVY" firstAttribute="top" secondItem="ZQC-5d-XcP" secondAttribute="bottom" constant="-2" id="fwC-Pv-aie"/>
+                                    <constraint firstItem="ZQC-5d-XcP" firstAttribute="leading" secondItem="XAE-Sa-Srw" secondAttribute="leading" constant="2" id="gHg-Kc-JKd"/>
+                                    <constraint firstItem="d4q-h2-LkM" firstAttribute="top" secondItem="bPh-Am-JWo" secondAttribute="bottom" id="gW4-4o-9jB"/>
+                                    <constraint firstItem="BqJ-tu-KRn" firstAttribute="leading" secondItem="j2Y-hR-0z6" secondAttribute="leading" id="gj2-ZR-No7"/>
+                                    <constraint firstItem="Nt7-UN-qrH" firstAttribute="leading" secondItem="2cf-1X-yn2" secondAttribute="leading" id="gvD-Ci-d1O"/>
+                                    <constraint firstItem="UEH-6Q-iVY" firstAttribute="trailing" secondItem="PO4-Dr-hVr" secondAttribute="trailing" id="hTc-g4-qvy"/>
+                                    <constraint firstItem="d4q-h2-LkM" firstAttribute="centerX" secondItem="bPh-Am-JWo" secondAttribute="centerX" id="hYN-Yh-FPb"/>
+                                    <constraint firstItem="op8-dy-vMb" firstAttribute="leading" secondItem="PFe-6w-ztY" secondAttribute="leading" id="hxA-X8-3XE"/>
+                                    <constraint firstItem="Oq3-cV-g0t" firstAttribute="centerX" secondItem="QqY-5E-JwV" secondAttribute="centerX" id="iyn-AU-elh"/>
+                                    <constraint firstItem="fLs-PH-fI1" firstAttribute="top" secondItem="P2e-WQ-HXb" secondAttribute="top" constant="-2" id="jTz-Qq-oM6"/>
+                                    <constraint firstItem="fLs-PH-fI1" firstAttribute="trailing" secondItem="7D9-E7-Gwd" secondAttribute="trailing" id="jpy-0K-gmd"/>
+                                    <constraint firstItem="PFe-6w-ztY" firstAttribute="trailing" secondItem="25F-0S-pet" secondAttribute="trailing" id="kwu-KQ-DCO"/>
+                                    <constraint firstItem="M5t-jV-M3U" firstAttribute="trailing" secondItem="fLs-PH-fI1" secondAttribute="trailing" id="m3z-UR-JKg"/>
+                                    <constraint firstItem="hhb-V2-n4N" firstAttribute="centerX" secondItem="XAE-Sa-Srw" secondAttribute="centerX" id="mBc-BA-CtO"/>
+                                    <constraint firstAttribute="trailing" secondItem="okT-Bg-58N" secondAttribute="trailing" id="mOb-dV-Mm4"/>
+                                    <constraint firstItem="PO4-Dr-hVr" firstAttribute="top" secondItem="op8-dy-vMb" secondAttribute="bottom" constant="10" id="oog-xJ-8wk"/>
+                                    <constraint firstItem="ZQC-5d-XcP" firstAttribute="trailing" secondItem="PO4-Dr-hVr" secondAttribute="trailing" id="pQT-UL-K9E"/>
+                                    <constraint firstItem="ZQC-5d-XcP" firstAttribute="top" secondItem="PO4-Dr-hVr" secondAttribute="bottom" id="qSe-ga-jwW"/>
+                                    <constraint firstItem="QqY-5E-JwV" firstAttribute="leading" secondItem="P2e-WQ-HXb" secondAttribute="leading" id="qYk-Q6-lgT"/>
+                                    <constraint firstItem="PRb-tS-KQc" firstAttribute="top" secondItem="OCQ-Qn-GO9" secondAttribute="bottom" id="qZo-CG-Yxj"/>
+                                    <constraint firstItem="zz7-oe-O7L" firstAttribute="leading" secondItem="OCQ-Qn-GO9" secondAttribute="leading" id="rYl-pI-Hu1"/>
+                                    <constraint firstItem="Nt7-UN-qrH" firstAttribute="top" secondItem="2cf-1X-yn2" secondAttribute="bottom" constant="10" id="rnk-yD-I2c"/>
+                                    <constraint firstItem="25F-0S-pet" firstAttribute="top" secondItem="OCQ-Qn-GO9" secondAttribute="top" constant="-2" id="sb8-n4-Mh3"/>
+                                    <constraint firstItem="2cf-1X-yn2" firstAttribute="top" secondItem="QqY-5E-JwV" secondAttribute="top" id="tSj-ON-4cM"/>
+                                    <constraint firstItem="25F-0S-pet" firstAttribute="trailing" secondItem="Mws-9H-MhY" secondAttribute="trailing" id="uRf-O7-hCz"/>
+                                    <constraint firstItem="dxF-wW-1iy" firstAttribute="centerX" secondItem="P2e-WQ-HXb" secondAttribute="centerX" id="uU9-36-6WS"/>
+                                    <constraint firstItem="25F-0S-pet" firstAttribute="leading" secondItem="X2H-1I-fSm" secondAttribute="leading" id="v6j-Tl-TTt"/>
+                                    <constraint firstItem="XAE-Sa-Srw" firstAttribute="top" secondItem="zz7-oe-O7L" secondAttribute="bottom" id="vV7-bg-BMf"/>
+                                    <constraint firstItem="BqJ-tu-KRn" firstAttribute="top" secondItem="j2Y-hR-0z6" secondAttribute="bottom" constant="10" id="vcx-qp-bTo"/>
+                                    <constraint firstItem="7D9-E7-Gwd" firstAttribute="leading" secondItem="BqJ-tu-KRn" secondAttribute="leading" id="wOV-zp-Nhn"/>
+                                    <constraint firstAttribute="trailing" secondItem="X2H-1I-fSm" secondAttribute="trailing" constant="5" id="wWG-lc-Ta7"/>
+                                    <constraint firstItem="op8-dy-vMb" firstAttribute="top" secondItem="zz7-oe-O7L" secondAttribute="top" constant="-2" id="xb2-rE-HJE"/>
+                                    <constraint firstItem="7D9-E7-Gwd" firstAttribute="top" secondItem="BqJ-tu-KRn" secondAttribute="bottom" constant="10" id="xeQ-NU-Xkf"/>
+                                    <constraint firstItem="PFe-6w-ztY" firstAttribute="leading" secondItem="25F-0S-pet" secondAttribute="leading" id="y3H-Ny-oep"/>
+                                    <constraint firstItem="hhb-V2-n4N" firstAttribute="top" secondItem="zrP-LX-CFN" secondAttribute="bottom" id="zT2-v1-HVe"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="O8L-qY-WFB" secondAttribute="trailing" id="HO4-Kz-kyc"/>
+                            <constraint firstItem="O8L-qY-WFB" firstAttribute="leading" secondItem="ubq-6d-Zle" secondAttribute="leading" id="RzF-Ms-t5y"/>
+                            <constraint firstItem="O8L-qY-WFB" firstAttribute="top" secondItem="ubq-6d-Zle" secondAttribute="top" constant="25" id="x56-9z-Dc5"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.94509803920000002" green="0.93725490199999995" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="O8L-qY-WFB" secondAttribute="bottom" constant="15" id="2zz-7k-Nwm"/>
+                    <constraint firstItem="ubq-6d-Zle" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="9iY-gG-V6P"/>
+                    <constraint firstItem="ubq-6d-Zle" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="Ijr-Xm-Bv8"/>
+                    <constraint firstAttribute="bottom" secondItem="ubq-6d-Zle" secondAttribute="bottom" constant="15" id="deZ-cm-dLf"/>
+                    <constraint firstItem="ubq-6d-Zle" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="-10" id="mHC-Tn-T3G"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lbl1" destination="bPh-Am-JWo" id="XZj-gQ-27w"/>
+                <outlet property="lbl2" destination="OCQ-Qn-GO9" id="Rs7-0Q-Yhm"/>
+                <outlet property="lbl3" destination="zz7-oe-O7L" id="sme-gf-zWY"/>
+                <outlet property="lbl4" destination="zrP-LX-CFN" id="xHM-eP-bI5"/>
+                <outlet property="lbl5" destination="7rJ-Kv-r60" id="BQ9-aY-U0c"/>
+                <outlet property="lbl6" destination="P2e-WQ-HXb" id="ec8-3B-gtE"/>
+                <outlet property="lbl7" destination="QqY-5E-JwV" id="Btj-nt-aNJ"/>
+                <outlet property="m_backGroundView" destination="ubq-6d-Zle" id="QPR-kI-sd1"/>
+                <outlet property="m_bottomConstraint" destination="2Ev-iB-2In" id="5I0-2d-kw7"/>
+                <outlet property="m_detail1Lbl" destination="X2H-1I-fSm" id="DMN-e3-42X"/>
+                <outlet property="m_detail2Lbl" destination="PFe-6w-ztY" id="v8c-DC-3hr"/>
+                <outlet property="m_detail3Lbl" destination="PO4-Dr-hVr" id="hEl-Kc-PDk"/>
+                <outlet property="m_detail4Lbl" destination="j2Y-hR-0z6" id="zOY-Z9-mpy"/>
+                <outlet property="m_detail5Lbl" destination="7D9-E7-Gwd" id="8mD-NG-niV"/>
+                <outlet property="m_detail6Lbl" destination="M5t-jV-M3U" id="aOP-Rc-iw2"/>
+                <outlet property="m_detail7Lbl" destination="Nt7-UN-qrH" id="yn1-Is-ggv"/>
+                <outlet property="m_detailView" destination="O8L-qY-WFB" id="QGu-AZ-we8"/>
+                <outlet property="m_detailViewHeightConstraint" destination="Gxf-xO-8E1" id="Zbn-MF-fR5"/>
+                <outlet property="m_gmcWebView" destination="ZQC-5d-XcP" id="oWO-Yu-hiL"/>
+                <outlet property="m_lineLbl2" destination="PRb-tS-KQc" id="5aX-1h-DNA"/>
+                <outlet property="m_lineLbl3" destination="XAE-Sa-Srw" id="KR8-2Y-VoZ"/>
+                <outlet property="m_lineLbl4" destination="hhb-V2-n4N" id="RmP-FO-fGh"/>
+                <outlet property="m_lineLbl6" destination="dxF-wW-1iy" id="Dhz-aX-o6L"/>
+                <outlet property="m_linelbl5" destination="Fhp-hS-yhM" id="gyy-cC-c3S"/>
+                <outlet property="m_separator" destination="okT-Bg-58N" id="QVU-On-sQh"/>
+                <outlet property="m_title1Lbl" destination="Mws-9H-MhY" id="0qb-aU-8Fq"/>
+                <outlet property="m_title2Lbl" destination="25F-0S-pet" id="coM-AT-NgN"/>
+                <outlet property="m_title3Lbl" destination="op8-dy-vMb" id="HGX-an-19a"/>
+                <outlet property="m_title4Lbl" destination="UEH-6Q-iVY" id="k1b-ar-T0C"/>
+                <outlet property="m_title5Lbl" destination="BqJ-tu-KRn" id="r27-Oj-fnY"/>
+                <outlet property="m_title6Lbl" destination="fLs-PH-fI1" id="8QC-Ax-2Gt"/>
+                <outlet property="m_title7Lbl" destination="2cf-1X-yn2" id="KJX-Kt-v8y"/>
+                <outlet property="m_webViewHeightConstraint" destination="bxg-Vp-Q80" id="0cO-lO-PTt"/>
+            </connections>
+            <point key="canvasLocation" x="15.9375" y="1239.0845070422536"/>
+        </tableViewCell>
+    </objects>
+</document>

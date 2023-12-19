@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "MercerMarsh-Benefits-white-rgbic_white_marsh.svg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "MercerMarsh-Benefits-white-rgbic_white_marsh 1.svg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "MercerMarsh-Benefits-white-rgbic_white_marsh 2.svg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

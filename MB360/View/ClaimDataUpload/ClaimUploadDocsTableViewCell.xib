@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSans-Medium.ttf">
+            <string>NotoSans-Medium</string>
+        </array>
+        <array key="NotoSans-Regular.ttf">
+            <string>NotoSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ClaimUploadDocsTableViewCell" rowHeight="97" id="KGk-i7-Jjw" customClass="ClaimUploadDocsTableViewCell" customModule="MyBenefits360" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="351" height="97"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="351" height="97"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gze-T8-OAP">
+                        <rect key="frame" x="15" y="10" width="321" height="77"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pdf-1" translatesAutoresizingMaskIntoConstraints="NO" id="jpO-HP-RKY">
+                                <rect key="frame" x="10" y="26.666666666666664" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="FHo-7k-c5n"/>
+                                    <constraint firstAttribute="height" constant="24" id="bL3-Fm-rbI"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="---" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kjJ-Qk-W7l">
+                                <rect key="frame" x="49" y="28.666666666666664" width="14" height="20"/>
+                                <fontDescription key="fontDescription" name="NotoSans-Medium" family="Noto Sans" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L6Y-qr-84q">
+                                <rect key="frame" x="271" y="31.666666666666664" width="40" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="44z-7g-Q4f"/>
+                                    <constraint firstAttribute="height" constant="14" id="Dq3-Jg-XKt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NotoSans-Regular" family="Noto Sans" pointSize="12"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="View"/>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dOX-Cq-upy">
+                                <rect key="frame" x="271" y="45.666666666666664" width="40" height="1"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="Bsf-hR-cl2"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93333333333333335" green="0.94509803921568625" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="dOX-Cq-upy" firstAttribute="trailing" secondItem="L6Y-qr-84q" secondAttribute="trailing" id="2uz-fy-8Th"/>
+                            <constraint firstItem="kjJ-Qk-W7l" firstAttribute="leading" secondItem="jpO-HP-RKY" secondAttribute="trailing" constant="15" id="4kn-vw-iii"/>
+                            <constraint firstItem="dOX-Cq-upy" firstAttribute="leading" secondItem="L6Y-qr-84q" secondAttribute="leading" id="LQJ-Ij-Bcb"/>
+                            <constraint firstAttribute="trailing" secondItem="L6Y-qr-84q" secondAttribute="trailing" constant="10" id="Sld-u5-eSb"/>
+                            <constraint firstItem="jpO-HP-RKY" firstAttribute="centerY" secondItem="gze-T8-OAP" secondAttribute="centerY" id="cFt-sD-RZx"/>
+                            <constraint firstItem="kjJ-Qk-W7l" firstAttribute="centerY" secondItem="gze-T8-OAP" secondAttribute="centerY" id="eaJ-W4-Zbm"/>
+                            <constraint firstItem="L6Y-qr-84q" firstAttribute="centerY" secondItem="gze-T8-OAP" secondAttribute="centerY" id="lnE-Zx-UT7"/>
+                            <constraint firstItem="jpO-HP-RKY" firstAttribute="leading" secondItem="gze-T8-OAP" secondAttribute="leading" constant="10" id="nlE-qZ-wm1"/>
+                            <constraint firstItem="dOX-Cq-upy" firstAttribute="top" secondItem="L6Y-qr-84q" secondAttribute="bottom" id="o3F-0z-A3h"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="gze-T8-OAP" secondAttribute="bottom" constant="10" id="FPX-4p-P6W"/>
+                    <constraint firstItem="gze-T8-OAP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="WA3-qX-dr8"/>
+                    <constraint firstAttribute="trailing" secondItem="gze-T8-OAP" secondAttribute="trailing" constant="15" id="Xbr-SV-2bP"/>
+                    <constraint firstItem="gze-T8-OAP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="xZ7-la-Jkm"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnView" destination="L6Y-qr-84q" id="sBU-ms-79f"/>
+                <outlet property="imgIcon" destination="jpO-HP-RKY" id="apl-Ki-NVO"/>
+                <outlet property="lblName" destination="kjJ-Qk-W7l" id="WkF-6Z-1Qa"/>
+                <outlet property="vewMain" destination="gze-T8-OAP" id="ZE9-l9-RRq"/>
+            </connections>
+            <point key="canvasLocation" x="-38.931297709923662" y="7.394366197183099"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="pdf-1" width="100" height="100"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

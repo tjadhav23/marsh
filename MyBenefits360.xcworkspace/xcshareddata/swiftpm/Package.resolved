@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "aes-everywhere-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mervick/aes-everywhere-swift.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "4affcf7461830785838858582d0bde42879a3c0c"
+      }
+    },
+    {
+      "identity" : "bluecryptor",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Kitura/BlueCryptor.git",
+      "state" : {
+        "revision" : "b8c32557c0e286901b35f16ba54426bfcb5a7b37",
+        "version" : "2.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}

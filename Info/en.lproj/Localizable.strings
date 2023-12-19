@@ -1,0 +1,139 @@
+/* 
+  Localizable.strings
+  MyBenefits
+
+  Created by Semantic on 04/07/18.
+  Copyright © 2018 Semantic. All rights reserved.
+*/
+//errorMessage
+"noDataFound"="No data found!";
+//Dashboard
+"link1Name" = "Enrollment";
+"link2Name" = "My Coverages";
+"link3Name" = "E-card";
+"link4Name" = "Intimate Claim";
+"link5Name" = "Provider Network";
+"link6Name" = "My Claims";
+"link7Name" = "Policy Features";
+"link8Name" = "Claim Procedures";
+"link9Name" = "Utilities";
+"link10Name" = "My Queries";
+"link11Name" = "Contact Details";
+"link12Name" = "FAQ";
+"link13Name" = "Claim Data Upload";
+"link14Name" = "All Claims";
+"homeTitle"="Home";
+"hello"="Hello, ";
+"profileTitle"="Profile";
+
+//My Coverages
+"gmc"="GMC";
+"gpa"="GPA";
+"gtl"="GTL";
+"policyDetailTitle"="My Policy Details";
+"policy"="Policy";
+"broker"="Broker";
+"insurer"="Insurer";
+"tpa"="TPA";
+"relation"="Relation";
+"dob"="Date of Birth";
+"age"="Age";
+"SI"="Base Sum Insured";
+"TSI"="Top-up Sum Insured";
+"TotalSI"="Total Sum Insured";
+
+//My Claims
+"totalClaims"="Total Claims";
+"claimType"="Claim Type";
+"claimDate"="Claim Date";
+"claimAmount"="Claim Amount";
+"liveStatus"="Live Status";
+"requestTimeOuterrorMsg"="The request timed out";
+
+//Intimated Claims
+"intimatedClaim"="Intimated Claim";
+"intimateNow"="Intimate Now";
+"intimateNowCaps"="INTIMATE NOW";
+"reset"="RESET";
+"NoclaimsError"="No Intimated Claims";
+"intimateFor"="Intimate for";
+"diagnosis"="Diagnosis/Ailment";
+"estimatedAmount"="Estimated/Reported Amount";
+"DOA"="DOA/Likely DOA";
+"hospitalName"="Hospital Name";
+"hospitalLoction"="Hospital Location";
+"errorMsg1"="Select person";
+"errorMsg2"="Enter Diagnosis/Ailment";
+"errorMsg3"="Enter Amount";
+"errorMsg4"="Enter DOA";
+"errorMsg5"="Enter Name of Hospital";
+"errorMsg6"="Enter Hospital Location";
+
+
+
+
+//Common Details msg
+"DataNotFoundErrorMsg"="Please contact your HR or Marsh Ops. team";
+"During_Enrollment_Detail_ErrorMsg"="Please contact your HR or Marsh Ops. team for more information";
+
+"During_Enrollment_Header_ErrorMsg"="Enrollment is in progress";
+
+//Ecard
+"ecard_During_Enrollment_Details"="You will be able to download E-card once the endorsement is complete";
+
+"During_PostEnrollment_Header_ErrorMsg"="Policy issuance is in progress";
+"ecard_During_PostEnrollment_Details"="E-card will be available soon";
+
+//MyClaims
+"During_PostEnrollment_Header_ClaimsErrorMsg"="You have no claims reported";
+"During_PostEnrollment_Detail_CommonErrorMsg"="In case of any discrepancy please contact your HR or Marsh Ops. team";
+
+//Intimate Now
+"During_Enrollment_Header_IntimateErrorMsg"="You can intimate a claim once enrollment period ends";
+
+
+//Utilities
+"During_Enrollment_Header_UtilitiesErrorMsg"="Utilities will be enabled post closure of enrollment";
+"During_PostEnrollment_Header_UtilitiesErrorMsg"="Utilities not available for your corporate";
+
+//Contact
+"During_Enrollment_Header2_ContactErrorMsg"="Contacts will be updated soon";
+"During_PostEnrollment_Header_ContactErrorMsg"="Contacts are not updated for your corporate";
+
+//FAQ
+"During_Enrollment_Header_FaqErrorMsg"="FAQs will be enabled post closure of enrollment";
+"During_PostEnrollment_Header_FaqErrorMsg"="FAQs not updated for your corporate";
+
+//Hospital
+"During_PostEnrollment_Header_HospitalErrorMsg"="Provider Network list not updated for your corporate";
+
+//Policy Feature
+"During_PostEnrollment_Header_PolicyFeatureErrorMsg" = "Policy Features not updated for your corporate";
+
+
+"queriesNotFoundErrorMsg"="No Queries Found!";
+"primaryLbl"="Primary";
+"secondaryLbl"="Secondary";
+"tertiaryLbl"="Tertiary";
+"primaryCareLbl"="Primary Care";
+"searchNearbyLbl"="SEARCH NEARBY HOSPITALS";
+"showOnMap"="Show on Map";
+"smsAddr"="SMS Address";
+"smsAddrMsg"="To get location and contact details of this hospital messaged to your phone.";
+"careLbl"="Care";
+"sentMsg"="Address sent successfully";
+"mobNoPlaceholder"="Enter Mobile Number";
+"mobNoValidationMsg1"="Space not allowed";
+"mobNoValidationMsg2"="Enter valid mobile number";
+"addrSentMsg"="Address sent successfully";
+
+"cancel"="Cancel";
+"ok"="Ok";
+"submit"="Submit";
+
+
+//Enrollment
+"confirmEnrollment"="CONFIRM ENROLLMENT";
+
+//Dashboard
+"ghi"="GHI";

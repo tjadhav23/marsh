@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Bold.ttf">
+            <string>Poppins-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomePageViewController" customModule="MyBenefits" customModuleProvider="target">
+            <connections>
+                <outlet property="m_collectionView" destination="d0d-GJ-ARW" id="szG-1k-I6E"/>
+                <outlet property="m_nameLbl" destination="cdt-1R-coY" id="yQa-Zm-my2"/>
+                <outlet property="m_scrollView" destination="1Ll-n9-U3F" id="wIR-IT-Q4u"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" translatesAutoresizingMaskIntoConstraints="NO" id="1Ll-n9-U3F">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdt-1R-coY">
+                            <rect key="frame" x="12" y="25" width="296" height="0.0"/>
+                            <constraints>
+                                <constraint firstAttribute="height" id="hd2-fZ-gE8"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="22"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="heightClass=regular-widthClass=regular">
+                                <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="32"/>
+                            </variation>
+                        </label>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="d0d-GJ-ARW">
+                            <rect key="frame" x="8" y="25" width="302" height="606"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="KOt-LM-wFL">
+                                <size key="itemSize" width="50" height="50"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                            <variation key="heightClass=regular-widthClass=regular">
+                                <edgeInsets key="layoutMargins" top="8" left="58" bottom="8" right="48"/>
+                            </variation>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="jmn-15-Ryl"/>
+                                <outlet property="delegate" destination="-1" id="CcL-ac-vSJ"/>
+                            </connections>
+                        </collectionView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="d0d-GJ-ARW" firstAttribute="top" secondItem="1Ll-n9-U3F" secondAttribute="top" priority="10" constant="80" id="1YY-7Q-B5u"/>
+                        <constraint firstAttribute="bottom" secondItem="cdt-1R-coY" secondAttribute="bottom" priority="10" constant="506" id="1lp-4B-s3k"/>
+                        <constraint firstItem="d0d-GJ-ARW" firstAttribute="top" secondItem="cdt-1R-coY" secondAttribute="bottom" id="2Fg-lr-e6l"/>
+                        <constraint firstItem="cdt-1R-coY" firstAttribute="top" secondItem="1Ll-n9-U3F" secondAttribute="top" constant="25" id="4Gd-wP-RHR"/>
+                        <constraint firstAttribute="bottom" secondItem="d0d-GJ-ARW" secondAttribute="bottom" constant="-100" id="KiY-fa-9uj"/>
+                        <constraint firstAttribute="trailing" secondItem="d0d-GJ-ARW" secondAttribute="trailing" constant="10" id="W3h-5A-n46"/>
+                        <constraint firstItem="cdt-1R-coY" firstAttribute="centerX" secondItem="d0d-GJ-ARW" secondAttribute="centerX" constant="1" id="WV9-lj-omI"/>
+                        <constraint firstItem="cdt-1R-coY" firstAttribute="centerX" secondItem="1Ll-n9-U3F" secondAttribute="centerX" id="XyT-nu-liG"/>
+                        <constraint firstAttribute="trailing" secondItem="cdt-1R-coY" secondAttribute="trailing" constant="12" id="bIA-mv-maN"/>
+                        <constraint firstItem="cdt-1R-coY" firstAttribute="leading" secondItem="1Ll-n9-U3F" secondAttribute="leading" constant="12" id="gk3-52-NsV"/>
+                        <constraint firstItem="d0d-GJ-ARW" firstAttribute="leading" secondItem="1Ll-n9-U3F" secondAttribute="leading" constant="8" id="n64-DV-4EB"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="1Ll-n9-U3F" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Hce-F4-pCE"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="1Ll-n9-U3F" secondAttribute="trailing" id="ICI-Lz-x1P"/>
+                <constraint firstItem="1Ll-n9-U3F" firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" id="gmY-wY-SWN"/>
+                <constraint firstItem="1Ll-n9-U3F" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="l2b-fe-duK"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="32" y="102"/>
+        </view>
+    </objects>
+</document>

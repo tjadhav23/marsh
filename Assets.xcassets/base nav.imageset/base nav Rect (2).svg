@@ -1,0 +1,10 @@
+<svg width="763" height="163" viewBox="0 0 763 163" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 21C1 9.9543 9.95431 1 21 1H742C753.046 1 762 9.95431 762 21V142C762 153.046 753.046 162 742 162H21C9.95433 162 1 153.046 1 142V21Z" fill="url(#paint0_linear_636_49)" stroke="black" stroke-opacity="0.5" stroke-width="0.5" stroke-miterlimit="0" stroke-linejoin="bevel"/>
+<defs>
+<linearGradient id="paint0_linear_636_49" x1="10.6574" y1="156.633" x2="469.305" y2="-262.487" gradientUnits="userSpaceOnUse">
+<stop stop-color="#009DE0"/>
+<stop offset="0.45303" stop-color="#3A76CA"/>
+<stop offset="1" stop-color="#8246AF"/>
+</linearGradient>
+</defs>
+</svg>

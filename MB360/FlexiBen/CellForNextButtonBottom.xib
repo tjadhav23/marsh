@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CellForNextButtonBottom" id="KGk-i7-Jjw" customClass="CellForNextButtonBottom" customModule="Enrollment_Test" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ly8-e3-5FI">
+                        <rect key="frame" x="0.0" y="2" width="320" height="46"/>
+                        <subviews>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GGr-jT-fFt">
+                                <rect key="frame" x="202" y="7" width="100" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="M4t-21-Wjv"/>
+                                    <constraint firstAttribute="height" constant="32" id="eCW-NQ-Zs4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="16"/>
+                                <state key="normal" title="next" backgroundImage="base nav">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="GGr-jT-fFt" secondAttribute="trailing" constant="18" id="af7-vi-8Qk"/>
+                            <constraint firstItem="GGr-jT-fFt" firstAttribute="centerY" secondItem="Ly8-e3-5FI" secondAttribute="centerY" id="czy-zz-ePH"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                <constraints>
+                    <constraint firstItem="Ly8-e3-5FI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="5cX-Fq-2ad"/>
+                    <constraint firstItem="Ly8-e3-5FI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="2" id="7bu-E7-SZF"/>
+                    <constraint firstAttribute="bottom" secondItem="Ly8-e3-5FI" secondAttribute="bottom" constant="2" id="S8m-gO-Cxk"/>
+                    <constraint firstAttribute="trailing" secondItem="Ly8-e3-5FI" secondAttribute="trailing" id="f0j-7V-CMF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnNext" destination="GGr-jT-fFt" id="kXf-Xv-XWG"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="101.78571428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="base nav" width="284" height="39"/>
+    </resources>
+</document>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NetworkHospitalsViewController" customModule="MyBenefits" customModuleProvider="target">
+            <connections>
+                <outlet property="m_SMSAddressSubView" destination="iRr-qm-dns" id="MVq-Rh-uzf"/>
+                <outlet property="m_SMSAddressTextView" destination="jU3-6W-Kmj" id="E4N-0B-Btq"/>
+                <outlet property="m_SMSView" destination="8gH-2Y-5Yy" id="IiM-oM-GzX"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view userInteractionEnabled="NO" alpha="0.95999999999999996" contentMode="scaleToFill" id="8gH-2Y-5Yy">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iRr-qm-dns" customClass="NetworkHospitalsTableViewCell" customModule="MyBenefits" customModuleProvider="target">
+                    <rect key="frame" x="20" y="126.5" width="335" height="270"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Enter Mobile Number" translatesAutoresizingMaskIntoConstraints="NO" id="jU3-6W-Kmj">
+                            <rect key="frame" x="10" y="170" width="317" height="40"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="fWC-p4-m8J"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="lje-Kg-6YL"/>
+                            </connections>
+                        </textView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EQP-jf-ch3">
+                            <rect key="frame" x="0.0" y="230" width="167.5" height="40"/>
+                            <color key="backgroundColor" red="0.29411764709999999" green="0.40000000000000002" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="16"/>
+                            <state key="normal" title="Submit">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="submitAddressButtonClicked:" destination="-1" eventType="touchUpInside" id="09W-sJ-1t0"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fS9-SI-WG2">
+                            <rect key="frame" x="167.5" y="230" width="167.5" height="40"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="9uV-Mr-bkh"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="16"/>
+                            <state key="normal" title="Cancel">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="cancelAddressButtonClicked:" destination="-1" eventType="touchUpInside" id="ZVO-ya-HRN"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SMS Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xjn-G4-clg">
+                            <rect key="frame" x="115.5" y="5" width="104.5" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="vhV-RR-L3E"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="16"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blackSpeech" translatesAutoresizingMaskIntoConstraints="NO" id="ypq-ta-tHK">
+                            <rect key="frame" x="85.5" y="15" width="20" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="20" id="E3w-hd-8FZ"/>
+                                <constraint firstAttribute="height" constant="20" id="hng-o7-PCH"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="749" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ffJ-Vx-d5y">
+                            <rect key="frame" x="10" y="45" width="315" height="119.5"/>
+                            <string key="text">To get location and contact details of this hospital messaged to your phone, enter your mobile number below. You can add multiple mobile numbers separated by commas.</string>
+                            <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                            <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.97455980329949243" green="0.97455980329949243" blue="0.97455980329949243" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstItem="ffJ-Vx-d5y" firstAttribute="top" secondItem="xjn-G4-clg" secondAttribute="bottom" id="1c9-ES-qJ9"/>
+                        <constraint firstItem="EQP-jf-ch3" firstAttribute="baseline" secondItem="fS9-SI-WG2" secondAttribute="firstBaseline" id="6mB-T2-aRx"/>
+                        <constraint firstItem="jU3-6W-Kmj" firstAttribute="leading" secondItem="iRr-qm-dns" secondAttribute="leading" constant="10" id="DNy-Dd-at9"/>
+                        <constraint firstItem="EQP-jf-ch3" firstAttribute="width" secondItem="fS9-SI-WG2" secondAttribute="width" id="GSr-EH-pSW"/>
+                        <constraint firstItem="xjn-G4-clg" firstAttribute="top" secondItem="iRr-qm-dns" secondAttribute="top" constant="5" id="I2f-cV-WnV"/>
+                        <constraint firstItem="jU3-6W-Kmj" firstAttribute="top" secondItem="ffJ-Vx-d5y" secondAttribute="bottom" constant="5.5" id="MQm-cc-hgc"/>
+                        <constraint firstAttribute="bottom" secondItem="EQP-jf-ch3" secondAttribute="bottom" id="Nlg-lY-Pfv"/>
+                        <constraint firstItem="ypq-ta-tHK" firstAttribute="centerY" secondItem="xjn-G4-clg" secondAttribute="centerY" id="O31-F7-BmI"/>
+                        <constraint firstItem="fS9-SI-WG2" firstAttribute="height" secondItem="EQP-jf-ch3" secondAttribute="height" id="Qib-4C-uUo"/>
+                        <constraint firstItem="xjn-G4-clg" firstAttribute="leading" secondItem="ypq-ta-tHK" secondAttribute="trailing" constant="10" id="U9e-US-nO2"/>
+                        <constraint firstItem="EQP-jf-ch3" firstAttribute="top" secondItem="fS9-SI-WG2" secondAttribute="top" id="YkN-F7-lBZ"/>
+                        <constraint firstAttribute="height" constant="270" id="Zdi-cd-BFl"/>
+                        <constraint firstAttribute="trailing" secondItem="fS9-SI-WG2" secondAttribute="trailing" id="cgB-wi-GJt"/>
+                        <constraint firstItem="fS9-SI-WG2" firstAttribute="leading" secondItem="EQP-jf-ch3" secondAttribute="trailing" id="cyu-O0-dtf"/>
+                        <constraint firstItem="xjn-G4-clg" firstAttribute="centerX" secondItem="iRr-qm-dns" secondAttribute="centerX" id="dcT-Kb-u4n"/>
+                        <constraint firstItem="EQP-jf-ch3" firstAttribute="top" secondItem="jU3-6W-Kmj" secondAttribute="bottom" constant="20" id="hUO-I3-Hae"/>
+                        <constraint firstItem="EQP-jf-ch3" firstAttribute="leading" secondItem="iRr-qm-dns" secondAttribute="leading" id="huk-XA-VJa"/>
+                        <constraint firstAttribute="trailing" secondItem="jU3-6W-Kmj" secondAttribute="trailing" constant="8" id="kiH-xL-kGk"/>
+                        <constraint firstItem="jU3-6W-Kmj" firstAttribute="centerX" secondItem="iRr-qm-dns" secondAttribute="centerX" constant="1" id="rUU-vo-Y51"/>
+                        <constraint firstItem="ffJ-Vx-d5y" firstAttribute="leading" secondItem="jU3-6W-Kmj" secondAttribute="leading" id="str-gB-QuS"/>
+                        <constraint firstItem="EQP-jf-ch3" firstAttribute="firstBaseline" secondItem="fS9-SI-WG2" secondAttribute="baseline" id="tDB-hM-xZQ"/>
+                        <constraint firstItem="ffJ-Vx-d5y" firstAttribute="centerX" secondItem="xjn-G4-clg" secondAttribute="centerX" id="xcB-n1-BDm"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.80784313730000001" green="0.81960784310000001" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="iRr-qm-dns" secondAttribute="trailing" constant="20" id="AzL-ma-TIV"/>
+                <constraint firstItem="iRr-qm-dns" firstAttribute="centerY" secondItem="8gH-2Y-5Yy" secondAttribute="centerY" constant="-72" id="WkJ-7w-iST"/>
+                <constraint firstItem="iRr-qm-dns" firstAttribute="leading" secondItem="8gH-2Y-5Yy" secondAttribute="leading" constant="20" id="qnU-RX-P06"/>
+                <constraint firstItem="iRr-qm-dns" firstAttribute="centerX" secondItem="8gH-2Y-5Yy" secondAttribute="centerX" id="vb0-BF-OMM"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="blackSpeech" width="16" height="14.5"/>
+    </resources>
+</document>

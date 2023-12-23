@@ -15,9 +15,9 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Setup Xcode
-      uses: actions/setup-xcode@14.3.1
+      uses: actions/setup-xcode@v2
       with:
-        xcode-version: '14.3.1' # Adjust version as needed
+        xcode-version: '14.3.1.x' # Adjust version as needed
 
     - name: Install Dependencies
       run: |

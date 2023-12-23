@@ -4,11 +4,11 @@ name: iOS CI/CD
 on:
   push:
     branches:
-      - main
+      - marsh_v1
 
 jobs:
   build:
-    runs-on: macos-latest
+    runs-on: self-hosted
 
     steps:
     - name: Checkout Repository
